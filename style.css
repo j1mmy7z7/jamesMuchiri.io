@@ -45,7 +45,7 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 20px;
+  top: 40px;
   right: 20px;
 }
 
@@ -436,7 +436,16 @@ section {
   border-color: var(--color-border-secondary);
   text-align: center;
 }
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.project p {
+  flex: 2;
+}
 .section-container {
   gap: 4rem;
   height: 80%;
